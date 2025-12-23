@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class SettleUpController {
-    SettleUpUserResponseDto settleUpUser(SettleUpUserRequestDto requestDto) {
+    public SettleUpUserResponseDto settleUpUser(SettleUpUserRequestDto requestDto) {
         return null;
     }
 }
